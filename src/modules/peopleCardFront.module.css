@@ -1,0 +1,14 @@
+.card {
+  width: 47vmin;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateX(-9%) rotate(-2deg);
+}
+
+.name {
+  font-family: "Righteous-Regular";
+  color: red;
+  text-align: center;
+  font-size: 5vmin;
+  background-color: rgba(5, 0, 0, 0.75);
+}
+
