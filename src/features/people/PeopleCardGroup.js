@@ -1,25 +1,30 @@
 import { useSelector } from 'react-redux';
-import { Col, Row } from 'reactstrap';
+import { Col, Row, CardGroup, Card } from 'reactstrap';
 import PeopleCardFront from './PeopleCardFront';
-//import PeopleCard1
+import PeopleCard1 from './PeopleCard1';
 //import PeopleCard1
 //import PeopleCard1
 import { selectAllPeople } from './peopleSlice';
+import styles from '../../modules/CardGroup.module.css';
+// <Col key={person.id}> <PeopleCard1 person={person} /> </Col>
 
 const PeopleCardGroup = () => {
   const people = useSelector(selectAllPeople);
   console.log('people:', people);
 
   return (
-    <Row>
+    <>
       {people.map((person) => {
         return (
-          <Col key={person.id}>
+          <div className={styles.CardGroup} key={person.id}>
+            {/*<PeopleCard3 />*/}
+            {/*<PeopleCard2 />*/}
+            <PeopleCard1 person={person} />
             <PeopleCardFront person={person} />
-          </Col>
+          </div>
         );
       })}
-    </Row>
+    </>
   );
 };
 

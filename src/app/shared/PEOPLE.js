@@ -4,6 +4,7 @@ export const PEOPLE = [
   {
     id: 0,
     name: 'Zach',
+    //images
     profileImg: IMAGES.zachProfile,
     bigImg1: IMAGES.zachPumpkin,
     bigImg2: IMAGES.zachFishing,
@@ -12,5 +13,9 @@ export const PEOPLE = [
     smallImg2: IMAGES.zachCat2,
     smallImg3: IMAGES.zachCat3,
     smallImg4: '',
+    //colors
+    profileColor: '#',
+    // descriptors
+    occupation: 'Java Developer',
   },
 ];

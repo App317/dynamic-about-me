@@ -9,6 +9,7 @@ const IMAGES = {
   zachPumpkin: require('./zach-garden-pumpkin.jpg'),
   //anthony's images
   anthonyProfile: require('./anthony-profile.jpg'),
+  //misc images
 };
 
 export default IMAGES;
