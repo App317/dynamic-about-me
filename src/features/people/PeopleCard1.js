@@ -1,4 +1,10 @@
-import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+import {
+  Card,
+  CardImg,
+  CardImgOverlay,
+  CardTitle,
+  Container,
+} from 'reactstrap';
 //import { Link } from 'react-router-dom';
 import styles from '../../modules/peopleCard1.module.css';
 

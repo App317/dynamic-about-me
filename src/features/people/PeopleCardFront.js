@@ -1,6 +1,13 @@
-import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+import {
+  Card,
+  CardImg,
+  CardImgOverlay,
+  CardTitle,
+  Container,
+} from 'reactstrap';
 //import { Link } from 'react-router-dom';
 import styles from '../../modules/peopleCardFront.module.css';
+//{/*className={styles.name}*/}
 
 const PeopleCardFront = ({ person }) => {
   const { name, profileImg } = person;
