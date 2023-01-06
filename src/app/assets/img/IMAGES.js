@@ -1,4 +1,7 @@
 const IMAGES = {
+  //misc images
+  logo: require('./logo.png'),
+  java: require('./java-logo.png'),
   //zach's images
   zachCat1: require('./zach-cat1.jpg'),
   zachCat2: require('./zach-cat2.jpg'),
@@ -9,8 +12,6 @@ const IMAGES = {
   zachPumpkin: require('./zach-garden-pumpkin.jpg'),
   //anthony's images
   anthonyProfile: require('./anthony-profile.jpg'),
-  //misc images
-  
 };
 
 export default IMAGES;

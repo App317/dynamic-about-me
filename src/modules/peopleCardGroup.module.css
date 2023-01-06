@@ -1,9 +1,15 @@
-.card {
-  aspect-ratio: 5 / 7;
-}
-
 .BigCardGroup {
-  align-items:absolute;
-  /*display: flex;*/
+
   /*flex-wrap: wrap;*/
+  /*align-items: center;*/
+  /*grid-template-columns: auto;*/
+  /*grid-template-rows: auto;*/
+  /*display: flex;*/
+  /*flex-direction: 'row';*/
+  /*flex: 0;*/
+  /*width: 188vmin;*/
+  /*aspect-ratio: 5 / 7;*/
+  /*align-items:absolute;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: center;*/
 }

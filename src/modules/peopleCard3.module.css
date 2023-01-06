@@ -1,0 +1,19 @@
+.card {
+    width: 47vmin;
+    aspect-ratio: 5 / 7;
+    /*transform: translateX(-9%) rotate(-2deg);*/
+    position: absolute;
+    /*z-index: 3;*/
+}
+
+.border {
+    outline: 3px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.title {
+    font-family: "Righteous-Regular";
+    text-align: center;
+    font-size: 5vmin;
+    background-color: rgba(5, 0, 0, 0.75);
+}

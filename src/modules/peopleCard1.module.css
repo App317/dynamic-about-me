@@ -1,6 +1,26 @@
 .card {
     width: 47vmin;
-    background-color: rgba(0, 0, 0, 0.5);
-    transform: translateX(-9%);
+    /*max-width: 100%;*/
+    /*height: 47vmin;*/
+    aspect-ratio: 5 / 7;
+    /*transform: translateX(-9%) rotate(-2deg);*/
     position: absolute;
+    /*z-index: 3;*/
+}
+
+.border {
+    outline: 3px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.title {
+    font-family: "Righteous-Regular";
+    text-align: center;
+    font-size: 5vmin;
+    background-color: rgba(5, 0, 0, 0.75);
+}
+
+.cardText {
+    outline: 1px solid black;
+
 }

@@ -1,0 +1,21 @@
+.navbar {
+    border-radius: 10vmin;
+    background: linear-gradient(to right, rgba(0, 255, 234, 0.801), rgba(0, 255, 234, 0.644), rgba(0, 255, 234, 0.267), rgba(0, 255, 234, 0.089));
+    position: fixed;
+    height: 10vmin;
+    width: 100vmin;
+    margin-left: 37vmin;
+    margin-bottom: 10vmin;
+    flex-direction: row;
+}
+.logo {
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
+    width: 10.5vmin;
+    
+}
+.title {
+    text-align: center;
+    color: black;
+}
