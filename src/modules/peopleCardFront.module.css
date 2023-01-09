@@ -1,5 +1,5 @@
 .card {
-  width: 47vmin;
+  width: 45vmin;
   /*transform: translateX(-9%) rotate(-2deg);*/
   position: absolute;
   aspect-ratio: 5 / 7;
@@ -19,3 +19,6 @@
   background-color: rgba(5, 0, 0, 0.75);
 }
 
+.img {
+  width: 100%;
+}

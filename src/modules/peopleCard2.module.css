@@ -1,6 +1,5 @@
 .card {
-    width: 47vmin;
-    aspect-ratio: 5/ 7;
+    width: 45vmin;
     /*transform: translateX(-9%) rotate(-2deg);*/
     position: absolute;
     /*z-index: 3;*/

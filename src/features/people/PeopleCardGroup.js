@@ -6,6 +6,8 @@ import {
   CardImgOverlay,
   CardTitle,
   Container,
+  Row,
+  Col,
 } from 'reactstrap';
 import PeopleCardFront from './PeopleCardFront';
 import PeopleCard1 from './PeopleCard1';
@@ -20,15 +22,24 @@ import { StackCard } from 'react-stack-cards';
 const PeopleCardGroup = () => {
   const people = useSelector(selectAllPeople);
   console.log('people:', people);
+
   return (
     <>
       {people.map((person) => {
         return (
           <CardGroup className={styles.BigCardGroup}>
-            <PeopleCard3 person={person} />
-            <PeopleCard2 person={person} />
-            <PeopleCard1 person={person} />
-            <PeopleCardFront person={person} />
+            <Card>
+              <PeopleCard3 person={person} />
+            </Card>
+            <Card>
+              <PeopleCard2 person={person} />
+            </Card>
+            <Card>
+              <PeopleCard1 person={person} />
+            </Card>
+            <Card>
+              <PeopleCardFront person={person} />
+            </Card>
           </CardGroup>
         );
       })}

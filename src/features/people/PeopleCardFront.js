@@ -1,4 +1,11 @@
-import { Card, CardImg, CardTitle, CardBody } from 'reactstrap';
+import {
+  Card,
+  CardImg,
+  CardTitle,
+  CardBody,
+  CardHeader,
+  Col,
+} from 'reactstrap';
 //import { Link } from 'react-router-dom';
 import styles from '../../modules/peopleCardFront.module.css';
 //{/*className={styles.name}*/}
@@ -24,7 +31,12 @@ const PeopleCardFront = ({ person }) => {
         <CardTitle className={styles.name} style={{ color: `${nameColor}` }}>
           {name}
         </CardTitle>
-        <CardImg src={profileImg} width="100%" alt={name} />
+        <CardImg
+          className={styles.img}
+          src={profileImg}
+          width="100%"
+          alt={name}
+        />
       </CardBody>
     </Card>
   );

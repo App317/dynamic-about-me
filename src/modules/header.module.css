@@ -1,10 +1,9 @@
 .navbar {
     border-radius: 10vmin;
-    background: linear-gradient(to right, rgba(0, 255, 234, 0.801), rgba(0, 255, 234, 0.644), rgba(0, 255, 234, 0.267), rgba(0, 255, 234, 0.089));
+    background: linear-gradient(rgba(0, 247, 255, 0.5),transparent);
+    background-color:rgb(22, 146, 136);
     position: fixed;
     height: 10vmin;
-    width: 100vmin;
-    margin-left: 37vmin;
     margin-bottom: 10vmin;
     flex-direction: row;
 }

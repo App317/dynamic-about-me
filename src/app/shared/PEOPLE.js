@@ -16,7 +16,7 @@ export const PEOPLE = [
     smallImg3: IMAGES.zachCat3,
     smallImg4: '',
     //colors
-    nameColor: '#f795ea',
+    nameColor: '#fd0bfd',
     gradientColor1: '#ff91fa',
     gradientColor2: '#44b9e3',
     gradientColor3: '#de2121',

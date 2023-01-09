@@ -1,8 +1,25 @@
-import { Card, CardImg, CardTitle, CardBody, CardText, Col } from 'reactstrap';
+import { render } from '@testing-library/react';
+import {
+  Card,
+  CardImg,
+  CardTitle,
+  CardBody,
+  CardText,
+  Col,
+  Row,
+} from 'reactstrap';
+import { PEOPLE } from '../../app/shared/PEOPLE';
 //import { Link } from 'react-router-dom';
 import styles from '../../modules/peopleCard1.module.css';
 
-const PeopleCard1 = ({ person }) => {
+const jobAndSchool = ({ person }) => {
+  return (
+    
+  )
+}
+
+
+const PeopleCard1test = ({ person }) => {
   const {
     name,
     description,
@@ -27,11 +44,17 @@ const PeopleCard1 = ({ person }) => {
         >
           About Me
         </CardTitle>
-        <CardImg className={styles.img} src={jobImg} alt={name} />
-        <CardText className={styles.cardText}>{description}</CardText>
+        <Row>
+          <Col md="6">
+            <CardImg src={jobImg} width="100%" alt={name} />
+          </Col>
+          <Col md="6">
+            <CardText className={styles.cardText}>{description}</CardText>
+          </Col>
+        </Row>
       </CardBody>
     </Card>
   );
 };
 
-export default PeopleCard1;
+export default PeopleCard1test;
