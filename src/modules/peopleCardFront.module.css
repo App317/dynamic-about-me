@@ -2,6 +2,7 @@
   width: 45vmin;
   /*transform: translateX(-9%) rotate(-2deg);*/
   position: absolute;
+  height: 100%;
   aspect-ratio: 5 / 7;
   /*right: 10%;*/
   /*z-index: 4;*/

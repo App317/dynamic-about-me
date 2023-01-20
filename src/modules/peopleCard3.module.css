@@ -1,5 +1,6 @@
 .card {
     width: 45vmin;
+    height: 100%;
     /*transform: translateX(-9%) rotate(-2deg);*/
     position: absolute;
     /*z-index: 3;*/
