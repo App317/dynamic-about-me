@@ -7,10 +7,10 @@ import {
   Col,
 } from 'reactstrap';
 //import { Link } from 'react-router-dom';
-import styles from '../../modules/peopleCardFront.module.css';
+import styles from '../../modules/MyCard1.module.css';
 //{/*className={styles.name}*/}
 
-const PeopleCardFront = ({ person }) => {
+const MyCard1 = ({ card }) => {
   const {
     name,
     profileImg,
@@ -18,7 +18,7 @@ const PeopleCardFront = ({ person }) => {
     gradientColor1,
     gradientColor2,
     gradientColor3,
-  } = person;
+  } = card;
   return (
     <Card className={styles.card}>
       <CardBody
@@ -31,15 +31,10 @@ const PeopleCardFront = ({ person }) => {
         <CardTitle className={styles.name} style={{ color: `${nameColor}` }}>
           {name}
         </CardTitle>
-        <CardImg
-          className={styles.img}
-          src={profileImg}
-          width="100%"
-          alt={name}
-        />
+        <CardImg className={styles.img} src={profileImg} alt={name} />
       </CardBody>
     </Card>
   );
 };
 
-export default PeopleCardFront;
+export default MyCard1;

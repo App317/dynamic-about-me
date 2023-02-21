@@ -1,4 +1,5 @@
 .BigCardGroup {
+  height: 45vmin;
   /*to stack cards, make width 1vmin and translate from there
   width: 1vmin; */
   /*width: 0.66vmin;*/

@@ -1,10 +1,10 @@
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
-import { peopleReducer } from '../features/people/peopleSlice';
+import { cardGroupReducer } from '../features/cards/cardGroupSlice';
 
 export const store = configureStore({
   reducer: {
-    people: peopleReducer,
+    cardGroup: cardGroupReducer,
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat([logger]),
 });

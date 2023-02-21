@@ -1,10 +1,10 @@
 import { Card, CardImg, CardTitle, CardBody, Col } from 'reactstrap';
 //import { Link } from 'react-router-dom';
-import styles from '../../modules/peopleCard3.module.css';
+import styles from '../../modules/MyCard3.module.css';
 
-const PeopleCard3 = ({ person }) => {
-  const { name, hobbyImg2, gradientColor1, gradientColor2, gradientColor3 } =
-    person;
+const MyCard3 = ({ card }) => {
+  const { name, hobbyImg1, gradientColor1, gradientColor2, gradientColor3 } =
+    card;
   return (
     <Card className={styles.card}>
       <CardBody
@@ -15,15 +15,15 @@ const PeopleCard3 = ({ person }) => {
         }}
       >
         <CardTitle
+          style={{ color: `${gradientColor2}` }}
           className={styles.title}
-          style={{ color: `${gradientColor3}` }}
         >
           Hobbies
         </CardTitle>
-        <CardImg src={hobbyImg2} alt={name} />
+        <CardImg src={hobbyImg1} width="100%" alt={name} />
       </CardBody>
     </Card>
   );
 };
 
-export default PeopleCard3;
+export default MyCard3;

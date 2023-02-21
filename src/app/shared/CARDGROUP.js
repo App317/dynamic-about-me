@@ -1,6 +1,6 @@
 import IMAGES from '../assets/img/IMAGES';
 
-export const PEOPLE = [
+export const CARDGROUP = [
   {
     id: 0,
     name: 'Zach',
