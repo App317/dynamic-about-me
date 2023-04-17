@@ -1,4 +1,12 @@
-import { Card, CardImg, CardTitle, CardBody, CardText, Col } from 'reactstrap';
+import {
+  Card,
+  CardImg,
+  CardTitle,
+  CardBody,
+  CardText,
+  Col,
+  Row,
+} from 'reactstrap';
 //import { Link } from 'react-router-dom';
 import styles from '../../modules/MyCard2.module.css';
 
@@ -6,8 +14,12 @@ const MyCard2 = ({ card }) => {
   const {
     name,
     description,
-    jobImg,
-    schoolImg,
+    htmlLogo,
+    cssLogo,
+    jsLogo,
+    card2Img1,
+    card2Img2,
+    card2Img3,
     gradientColor1,
     gradientColor2,
     gradientColor3,
@@ -27,8 +39,36 @@ const MyCard2 = ({ card }) => {
         >
           About Me
         </CardTitle>
-        <CardImg className={styles.img} src={jobImg} alt={name} />
-        <CardText className={styles.cardText}>{description}</CardText>
+        <Row>
+          <Col>
+            <CardImg className={styles.rowImg} src={htmlLogo} alt={name} />
+          </Col>
+          <Col>
+            <CardImg className={styles.rowImg} src={cssLogo} alt={name} />
+          </Col>
+          <Col>
+            <CardImg className={styles.rowImg} src={jsLogo} alt={name} />
+          </Col>
+          <Col className="m-3">
+            <CardText className={styles.cardText}>{description}</CardText>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <CardImg className={styles.img} src={card2Img2} alt={name} />
+          </Col>
+          <Col>
+            <CardText className={styles.cardText}>{description}</CardText>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <CardImg className={styles.img} src={card2Img3} alt={name} />
+          </Col>
+          <Col>
+            <CardText className={styles.cardText}>{description}</CardText>
+          </Col>
+        </Row>
       </CardBody>
     </Card>
   );

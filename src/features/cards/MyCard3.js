@@ -3,7 +3,7 @@ import { Card, CardImg, CardTitle, CardBody, Col } from 'reactstrap';
 import styles from '../../modules/MyCard3.module.css';
 
 const MyCard3 = ({ card }) => {
-  const { name, hobbyImg1, gradientColor1, gradientColor2, gradientColor3 } =
+  const { name, card3Img, gradientColor1, gradientColor2, gradientColor3 } =
     card;
   return (
     <Card className={styles.card}>
@@ -20,7 +20,7 @@ const MyCard3 = ({ card }) => {
         >
           Hobbies
         </CardTitle>
-        <CardImg src={hobbyImg1} width="100%" alt={name} />
+        <CardImg src={card3Img} width="100%" alt={name} />
       </CardBody>
     </Card>
   );

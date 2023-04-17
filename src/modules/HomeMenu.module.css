@@ -1,0 +1,36 @@
+.menu {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menuItems {
+    margin-right: clamp(4rem, 20vw, 48rem) ;
+    
+}
+
+.menuItem:hover {
+    
+}
+
+.menuItems:hover > .menuItem {
+    opacity: 0.3;
+}
+
+.menuItems:hover > .menuItem:hover {
+    opacity: 1;
+}
+
+.menuItem {
+    color: white;
+    font-size: clamp(3rem, 8vw, 8rem);
+    font-family: "Righteous-Regular";
+
+    display: block;
+    text-decoration: none;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    transition: opacity 400ms ease;
+}
+
+
+

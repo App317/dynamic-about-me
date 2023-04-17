@@ -13,7 +13,7 @@ import styles from '../../modules/MyCard1.module.css';
 const MyCard1 = ({ card }) => {
   const {
     name,
-    profileImg,
+    card1Img,
     nameColor,
     gradientColor1,
     gradientColor2,
@@ -31,7 +31,7 @@ const MyCard1 = ({ card }) => {
         <CardTitle className={styles.name} style={{ color: `${nameColor}` }}>
           {name}
         </CardTitle>
-        <CardImg className={styles.img} src={profileImg} alt={name} />
+        <CardImg className={styles.img} src={card1Img} alt={name} />
       </CardBody>
     </Card>
   );

@@ -1,12 +1,9 @@
 import { Container } from 'reactstrap';
-import MyCardGroup from '../features/cards/MyCardGroup';
+
+import HomeMenu from '../features/menu/HomeMenu';
 
 const HomePage = () => {
-  return (
-    <Container>
-      <MyCardGroup />
-    </Container>
-  );
+  return <Container>{<HomeMenu />}</Container>;
 };
 
 export default HomePage;

@@ -28,6 +28,15 @@
  align-items: center;
 }
 
+.rowImg{
+ min-height: 80px;
+ min-width: 80px;
+ max-width: 85px;
+ max-height: 85px;
+ object-fit: fill;
+ align-items: center;
+}
+
 .cardText {
  overflow: auto;
  outline: 1px solid black;

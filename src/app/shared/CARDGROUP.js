@@ -3,25 +3,28 @@ import IMAGES from '../assets/img/IMAGES';
 export const CARDGROUP = [
   {
     id: 0,
-    name: 'Zach',
+    name: 'Anthony',
     //images
-    profileImg: IMAGES.zachProfile,
-    jobImg: IMAGES.java,
-    schoolImg: false,
-    hobbyImg1: IMAGES.zachPumpkin,
-    hobbyImg2: IMAGES.zachFishing,
-    hobbyImg3: IMAGES.zachCar,
-    smallImg1: IMAGES.zachCat1,
-    smallImg2: IMAGES.zachCat2,
-    smallImg3: IMAGES.zachCat3,
+    htmlLogo: IMAGES.htmlLogo,
+    cssLogo: IMAGES.cssLogo,
+    jsLogo: IMAGES.jsLogo,
+    card1Img: IMAGES.anthonyProfile,
+    card2Img1: IMAGES.htmlCssJs,
+    card2Img2: IMAGES.reactLogo,
+    card2Img3: IMAGES.reactNativeLogo,
+    card3Img: IMAGES.zachPumpkin,
+    card4Img: IMAGES.zachCar,
+    smallImg1: '',
+    smallImg2: '',
+    smallImg3: '',
     smallImg4: '',
     //colors
-    nameColor: '#fd0bfd',
-    gradientColor1: '#ff91fa',
-    gradientColor2: '#44b9e3',
-    gradientColor3: '#de2121',
+    nameColor: '#00d3ff',
+    gradientColor1: '#beaaff',
+    gradientColor2: '#6efc97',
+    gradientColor3: '#55e2ff',
     // descriptors
-    description:
-      'I work as a Java developer. I like video games, gardening, cars, and going fishing with friends. Sometimes, the neighborhood cat, Smokey, comes to visit and I go about playing with her and giving her treats',
+    
+    description: 'Lorem stuff idk what that latin stuff says',
   },
 ];

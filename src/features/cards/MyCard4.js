@@ -2,8 +2,8 @@ import { Card, CardImg, CardTitle, CardBody, Col } from 'reactstrap';
 //import { Link } from 'react-router-dom';
 import styles from '../../modules/MyCard4.module.css';
 
-const Card4 = ({ card }) => {
-  const { name, hobbyImg2, gradientColor1, gradientColor2, gradientColor3 } =
+const MyCard4 = ({ card }) => {
+  const { name, card4Img, gradientColor1, gradientColor2, gradientColor3 } =
     card;
   return (
     <Card className={styles.card}>
@@ -20,10 +20,10 @@ const Card4 = ({ card }) => {
         >
           Hobbies
         </CardTitle>
-        <CardImg src={hobbyImg2} alt={name} />
+        <CardImg src={card4Img} alt={name} />
       </CardBody>
     </Card>
   );
 };
 
-export default Card4;
+export default MyCard4;
