@@ -1,7 +1,6 @@
 /* Html Background Color is inside index.html */
 body {
-    margin: 0px;
     height: 100vh;
-    display: grid;
+    display: flex;
     place-items: center;
 }

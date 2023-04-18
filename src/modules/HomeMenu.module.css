@@ -1,18 +1,7 @@
-.menu {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
 .menuItems {
     margin-right: clamp(4rem, 20vw, 48rem) ;
     
 }
-
-.menuItem:hover {
-    color: aqua;
-}
-
 
 .menuItem {
     color: white;
@@ -22,8 +11,15 @@
     display: block;
     text-decoration: none;
     padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
-    transition: opacity 400ms ease;
+    opacity: 1;
+    transition: opacity 400ms ease-in-out;
 }
 
+.menuItem:hover {
+    color: aqua;
+}
 
+.menuItems:hover .menuItem:not(:hover) {
+    opacity: 0.5;
+  }
 
