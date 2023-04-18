@@ -3,15 +3,19 @@ import styles from '../../modules/HomeMenu.module.css';
 import { useState } from 'react';
 
 const HomeMenu = () => {
-  const [menuFade, setMenuFade] = useState(false);
+  const fade = { opacity: 0.3 };
+  const unfade = { opacity: 1.0 };
+  const [textFade, setTextFade] = useState(unfade);
+  const texts = ['about', 'projects', 'resume', 'contact'];
 
   return (
     <div className={styles.menu}>
       <div className={styles.menuItems}>
         <div>
           <Link
-            style={{ opacity: 0.3 }}
-            onMouseEnter={() => setMenuFade(!menuFade)}
+            style={textFade}
+            onMouseOver={() => setTextFade(fade)}
+            onMouseOut={() => setTextFade(unfade)}
             className={styles.menuItem}
             to="/about"
           >
@@ -19,7 +23,13 @@ const HomeMenu = () => {
           </Link>
         </div>
         <div>
-          <Link className={styles.menuItem} to="/projects">
+          <Link
+            style={textFade}
+            onMouseOver={() => setTextFade(unfade)}
+            onMouseOut={() => setTextFade(fade)}
+            className={styles.menuItem}
+            to="/projects"
+          >
             <h1>Projects</h1>
           </Link>
         </div>

@@ -10,16 +10,9 @@
 }
 
 .menuItem:hover {
-    
+    color: aqua;
 }
 
-.menuItems:hover > .menuItem {
-    opacity: 0.3;
-}
-
-.menuItems:hover > .menuItem:hover {
-    opacity: 1;
-}
 
 .menuItem {
     color: white;
