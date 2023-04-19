@@ -9,12 +9,22 @@ const HomeMenu = () => {
 
   function handleHover(index) {
     setHoverText(index);
+    const links = document.querySelectorAll(`.${styles.menuItem}`);
+    links.forEach((link, i) => {
+      if (i !== index) {
+        link.style.opacity = 0.5;
+      } else {
+        link.style.opacity = 1;
+      }
+    });
   }
   function handleLeave() {
     setHoverText(null);
+    const links = document.querySelectorAll(`.${styles.menuItem}`);
+    links.forEach((link) => {
+      link.style.opacity = 1;
+    });
   }
-
-  const opacity = hoverText === null ? 1 : 0.5;
 
   return (
     <div className={styles.menuItems}>
@@ -30,7 +40,6 @@ const HomeMenu = () => {
             onMouseEnter={() => handleHover(index)}
             onMouseLeave={() => handleLeave()}
             to={urls[index]}
-            style={{ opacity }}
           >
             {text}
           </Link>
