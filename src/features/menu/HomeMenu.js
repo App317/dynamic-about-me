@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import styles from '../../modules/HomeMenu.module.css';
-import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { handleHover, handleLeave } from './homeMenuSlice';
 
