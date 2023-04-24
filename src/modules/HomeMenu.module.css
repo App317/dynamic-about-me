@@ -10,14 +10,15 @@
 
     display: block;
     text-decoration: none;
-    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    padding: clamp(0.25rem, 0vw, 1rem) 0rem;
     opacity: 1;
     transition: opacity 400ms ease-in-out;
 }
 
 .menuItem:hover {
     color: aqua;
-}
+  }
+
 
 .menuItems:hover .menuItem:not(:hover) {
     opacity: 0.5;
