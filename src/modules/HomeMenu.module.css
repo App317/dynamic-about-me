@@ -1,6 +1,6 @@
 .menuItems {
-    margin-right: clamp(4rem, 20vw, 48rem) ;
-    
+    margin-right: clamp(4rem, 20vw, 48rem);
+    z-index: 1;
 }
 
 .menuItem {

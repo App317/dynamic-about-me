@@ -2,9 +2,14 @@
     height: 100vh;
     width: 100vw;
 
-    background-image: radial-gradient(
-        rgba(2255, 255, 255, 0.1) 9%,
-        transparent 9%
-    );
+    background: url('../app/assets/img/Tile_Flower.png');
+   
+    background-position: 0% 0%;
+    background-size: 5vmin 5vmin;
+
     
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
 }

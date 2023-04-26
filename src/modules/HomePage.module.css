@@ -6,4 +6,5 @@
 html,
 body {
     background-color: rgb(13, 13, 15) !important ;
+    z-index: 2;
 }
