@@ -1,0 +1,53 @@
+.card {
+    width: 45vmin;
+    aspect-ratio: 5 / 7;
+    height: 100%;
+    /*max-width: 100%;*/
+    /*height: 47vmin;*/
+    position: absolute;
+    /*transform: translateX(-9%) rotate(-2deg);*/
+    /*z-index: 3;*/
+}
+
+.border {
+    outline: 3px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.title {
+    font-family: "Righteous-Regular";
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(5, 0, 0, 0.75);
+}
+
+.img {
+ max-width: 250px;
+ max-height: 250px;
+ object-fit: fill;
+ align-items: center;
+}
+
+.rowImg{
+ min-height: 80px;
+ min-width: 80px;
+ max-width: 85px;
+ max-height: 85px;
+ object-fit: fill;
+ align-items: center;
+}
+
+.cardText {
+ overflow: auto;
+ outline: 1px solid black;
+ text-align: center;
+ width: 100%;
+ width: -moz-available; /* Webkit-based browsers will ignore this. */
+ width: -webkit-fill-avaiible; /*mozilla-based browsers will ignore this */
+ width: fill-available;
+ height: 100%;
+ height: -moz-available; /* Webkit-based browsers will ignore this. */
+ height: -webkit-fill-avaiible; /*mozilla-based browsers will ignore this */
+ height: fill-available;
+ object-fit: fill;
+}
