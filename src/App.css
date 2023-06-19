@@ -1,4 +1,3 @@
-/* Html Background Color is inside index.html */
 html, body {
     height: 100%;
     margin: 0;
@@ -8,3 +7,4 @@ html, body {
     display: flex;
     place-items: center;
   }
+
